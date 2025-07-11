@@ -30,7 +30,7 @@ npm run start
 npm run format
 ```
 
-- `lint` (checks all files within `/src/**` to ensure they meet the rules specified in [eslint.config.mjs](/eslint.config.mjs))
+- `lint` (checks all files within `/src/**` to ensure they meet the rules specified in [eslint.config.mjs](/eslint.config.mjs)):
 
 ```bash
 npm run lint
