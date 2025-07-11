@@ -1,0 +1,68 @@
+// https://typescriptlang.org/tsconfig
+
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		// Language and Environment
+
+		"target": "ESNext",
+
+		// Modules
+
+		"module": "NodeNext",
+		"rootDir": "./src",
+		"moduleResolution": "nodenext",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"resolveJsonModule": false,
+		"allowArbitraryExtensions": false,
+
+		// Emit
+
+		"sourceMap": true,
+		"outDir": "./dist",
+		"removeComments": true,
+		"noEmitHelpers": true,
+		"noEmitOnError": true,
+
+		// Interop Constraints
+
+		"allowSyntheticDefaultImports": false,
+		"esModuleInterop": false,
+		"forceConsistentCasingInFileNames": true,
+
+		// Type Checking
+
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+
+		"pretty": true,
+
+		// Checked with ESLint.
+
+		"noUnusedLocals": false,
+		"noUnusedParameters": true,
+
+		"exactOptionalPropertyTypes": false,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"allowUnreachableCode": false,
+
+		// Completeness
+
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true
+	},
+
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}
