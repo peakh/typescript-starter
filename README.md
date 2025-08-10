@@ -2,6 +2,13 @@
 
 An opinionated TypeScript starter for future projects.
 
+### Features
+
+- Full ESM support
+- Equipped with [ESLint](https://eslint.org), [TypeScript ESLint](https://typescript-eslint.io), and [Stylistic](https://eslint.style) for improved code consistency and quality
+- [Source map support](https://github.com/evanw/node-source-map-support) for direct TypeScript file paths in stack traces
+- Import alias paths for concise import paths (e.g., `@/index.js`, `@/util/index.js`)
+
 ### Getting Started
 
 Install dependencies:
