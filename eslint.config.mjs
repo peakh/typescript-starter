@@ -1,10 +1,10 @@
 // @ts-check
 import js from "@eslint/js";
 import stylistic from "@stylistic/eslint-plugin";
-import { globalIgnores } from "eslint/config";
+import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
 
-export default tseslint.config(
+export default defineConfig(
 	[globalIgnores(["dist/*"])],
 	js.configs.recommended,
 	tseslint.configs.recommendedTypeChecked,
