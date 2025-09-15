@@ -37,6 +37,7 @@ export default defineConfig(
 			"no-implied-eval": 0,
 			"no-useless-escape": 1,
 			"no-useless-return": 1,
+			"@typescript-eslint/dot-notation": 2,
 			"@typescript-eslint/consistent-type-imports": 2,
 			"@typescript-eslint/consistent-type-exports": 2,
 			"@typescript-eslint/array-type": 1,
